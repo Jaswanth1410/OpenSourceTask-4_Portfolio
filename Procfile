@@ -1,0 +1,1 @@
+web: gunicorn jaswanthprofile.wsgi --log-file -

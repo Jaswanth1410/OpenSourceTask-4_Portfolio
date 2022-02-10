@@ -1,0 +1,467 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaswanth_Protfilo</title>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+
+    <link rel="icon" href="{% static 'images/icon.png' %}" type="image/png">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6d1c5bc3da.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,300;0,400;1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="body">
+        <div class="header">
+            <nav>
+                <img src="{% static 'images/logo.png' %}" class="logo" alt="">
+                <ul>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#contact">CONTACT ME</a></li>
+                </ul>
+            </nav>
+            <div class="text-box">
+                <h1>I'm <span class="auto-input"></span></h1>
+                <p>
+                    I'm an Undergraduate at <a class="name" href="https://amrita.edu/school/engineering/chennai/">Amrita
+                        Vishwa Vidyapeetham .</a> My present working area is Web Development.
+                </p>
+                <div><a href="#contact">Contact Me</a></div>
+            </div>
+
+            <img src="{% static 'images/man.png' %}" class="user-img" alt="">
+
+        </div>
+
+
+        <section class="About pt-5" id="about">
+            <div class="row m-5">
+                <div class="col-5">
+                    <div class="card">
+                        <img src="{% static 'images/about.png' %}" alt="">
+                    </div>
+                </div>
+                <div class="col-7">
+                    <div class="card c1">
+                        <h1>About Me</h1>
+                        <p>
+                            Hello, my name is <span class="hil">Jaswanth Sai Kakavakam </span>, and I am a sophomore at
+                            <span class="name"> Amrita Vishwa Vidyapeetham</span>, attending the Chennai Campus. I am
+                            especially interested in the heavily influence of technology and science involved in an
+                            engineering career.
+
+                        </p>
+                        <div> Department : <span class="ans"> Computer Science. </span></div>
+                        <div> Word's Describe myself : <span class="ans"> Genuine, Disciplined, Passionate, Ambitious,
+                                Open-minded, Adaptable , Determined, Warmhearted.
+                            </span></div>
+                        <div> Specialization : <span class="ans"> Web Development , Competitive Coding.</span></div>
+                        <div> Present working Areas : <span class="ans"> Machine Learning ,Private 5G. </span></div>
+                        <p>
+                            I am ambitious and driven. I thrive on challenge and constantly set goals for myself, so I
+                            have something to strive towards. I’m not comfortable with settling, and I’m always looking
+                            for an opportunity to do this Unique and make my self standby.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="Projects" id="projects">
+            <div class="container py-4">
+                <center>
+                    <div class="he my-4">
+                        <h2>Projects & Hackathons</h2>
+                    </div>
+                </center>
+                <div class="row py-4">
+
+                    <div class="col-lg-4 mb-4">
+                        <div class="card">
+                            <iframe src="https://www.youtube.com/embed/ehPkL2m2q00" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <div class="card-body p-4">
+                                <h5 class="card-title">BIO</h5>
+                                <p class="card-text p-2">Bio is a Web Application that automates the process of writing
+                                    resumes and applying for employment. This will make it easier for students and
+                                    experienced applicants to create and print professional resumes. <br><br>Submitted
+                                    To : <span class="hili">SEM PROJECT</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="card">
+                            <iframe src="https://www.youtube.com/embed/PSilstDgPaE" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <div class="card-body p-4">
+                                <h5 class="card-title">Honeywell Smart City Hackathon</h5>
+                                <p class="card-text p-2">We intend to solve this problem using Number Plate Recognition
+                                    and Face detection.Recognizing the Number Plate of the rash drivers and taking
+                                    appropriate action can help reduce these accidents and the death toll pertaining to
+                                    it. <br><br>Submitted To : <span class="hili">Honeywell</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="card">
+                            <iframe src="https://www.youtube.com/embed/Zro177aar6k" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <div class="card-body p-4">
+                                <h5 class="card-title">SandCastle</h5>
+                                <p class="card-text p-2">We’ve designed a beach-themed website that lets you get a
+                                    virtual experience with the help of skybox images. Sit back and enjoy the live
+                                    experience through 3D viewing.<br><br> Submitted To : <span class="hili">Surfs Up
+                                        Hacks</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="card">
+                            <iframe src="https://www.youtube.com/embed/kXNe940IM88" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <div class="card-body p-4">
+                                <h5 class="card-title">GEO BIN</h5>
+                                <p class="card-text p-2">GEOBIN is started with a vision to reduce waste in landfills by
+                                    creating a circular economy. We wanted to give them last stage convenience for
+                                    disposing of their dry waste easily. GEOBIN is deeply committed to achieving the
+                                    sustainable development goals (SDG) targets well ahead of the globally agreed
+                                    timelines.
+                                    <br><br>Submitted To : <span class="hili">Ingenium</span>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="card">
+                            <iframe src="https://www.youtube.com/embed/YHszgO0d0mk" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <div class="card-body p-4">
+                                <h5 class="card-title">SEEK AND GIVE</h5>
+                                <p class="card-text p-2">A Post-COVID-19 world will not be the same one we knew before,
+                                    but it can be a better one if people help each other. So we thought to create a
+                                    website for interaction between people and they can request for help
+                                    also.<br><br>Submitted To : <span class="hili">HackRice11</span></p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="card">
+                            <iframe src="https://www.youtube.com/embed/Y9IKYkbvjPk" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <div class="card-body p-4">
+                                <h5 class="card-title">City Avenue</h5>
+                                <p class="card-text p-2">Our website gives you information about various locations in
+                                    the city and helps you find the one place you've been looking for. It is a
+                                    responsive website and helps you contact us if you have any
+                                    queries.<br><br>Submitted To : <span class="hili">Hack-ccessible</span></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="line"> </h2>
+            </div>
+
+        </section>
+
+
+
+
+
+    </section>
+
+    <section class="skills p-5" id="skills">
+        <div class="row m-5">
+            <center><h2 class="ski"> Skills </h2></center>
+            <div class="col-sm-6">
+                <div class="card p-5">
+                    <div class="progress_bar">
+                        <div class="pro-bar">
+                            <small class="progress_bar_title">
+                                HTML5
+                                <span class="progress_number">90%</span>
+                            </small>
+                            <span class="progress-bar-inner" style="background-color: #1abc9c; width: 90%;"
+                                data-value="90" data-percentage-value="90"></span>
+                        </div>
+                    </div>
+                    <div class="progress_bar">
+                        <div class="pro-bar">
+                            <small class="progress_bar_title">
+                                CSS3
+                                <span class="progress_number">75%</span>
+                            </small>
+                            <span class="progress-bar-inner" style="background-color: #fdba04; width: 75%;"
+                                data-value="75" data-percentage-value="75"></span>
+                        </div>
+                    </div>
+                    <div class="progress_bar">
+                        <div class="pro-bar">
+                            <small class="progress_bar_title">
+                                JS
+                                <span class="progress_number">65%</span>
+                            </small>
+                            <span class="progress-bar-inner" style="background-color: #0804fd; width: 65%;"
+                                data-value="65" data-percentage-value="65"></span>
+                        </div>
+                    </div>
+                    <div class="progress_bar">
+                        <div class="pro-bar">
+                            <small class="progress_bar_title">
+                                Bootstrap
+                                <span class="progress_number">65%</span>
+                            </small>
+                            <span class="progress-bar-inner" style="background-color: #1abc9c; width: 65%;"
+                                data-value="65" data-percentage-value="65"></span>
+                        </div>
+                    </div>
+                    <div class="progress_bar">
+                        <div class="pro-bar">
+                            <small class="progress_bar_title">
+                                Django
+                                <span class="progress_number">65%</span>
+                            </small>
+                            <span class="progress-bar-inner" style="background-color: #fdba04; width: 65%;"
+                                data-value="65" data-percentage-value="65"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card p-5">
+                    <div class="progress_bar">
+                        <div class="pro-bar">
+                            <small class="progress_bar_title">
+                                C
+                                <span class="progress_number">90%</span>
+                            </small>
+                            <span class="progress-bar-inner" style="background-color: #1abc9c; width: 90%;"
+                                data-value="90" data-percentage-value="90"></span>
+                        </div>
+                    </div>
+                    <div class="progress_bar">
+                        <div class="pro-bar">
+                            <small class="progress_bar_title">
+                                C++
+                                <span class="progress_number">75%</span>
+                            </small>
+                            <span class="progress-bar-inner" style="background-color: #fdba04; width: 75%;"
+                                data-value="75" data-percentage-value="75"></span>
+                        </div>
+                    </div>
+                    <div class="progress_bar">
+                        <div class="pro-bar">
+                            <small class="progress_bar_title">
+                                Python
+                                <span class="progress_number">59%</span>
+                            </small>
+                            <span class="progress-bar-inner" style="background-color: #0804fd; width: 59%;"
+                                data-value="59" data-percentage-value="59"></span>
+                        </div>
+                    </div>
+                    <div class="progress_bar">
+                        <div class="pro-bar">
+                            <small class="progress_bar_title">
+                                Java
+                                <span class="progress_number">50%</span>
+                            </small>
+                            <span class="progress-bar-inner" style="background-color: #1abc9c; width: 50%;"
+                                data-value="50" data-percentage-value="50"></span>
+                        </div>
+                    </div>
+                    <div class="progress_bar">
+                        <div class="pro-bar">
+                            <small class="progress_bar_title">
+                                React.js
+                                <span class="progress_number">35%</span>
+                            </small>
+                            <span class="progress-bar-inner" style="background-color: #fdba04; width: 35%;"
+                                data-value="35" data-percentage-value="35"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-section"  id="contact" >
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="wrapper">
+                        <div class="row no-gutters">
+                            <div class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch">
+                                <div class="contact-wrap w-100 p-md-5 p-4">
+                                    <h3 class="mb-4">Get in touch</h3>
+                                    <div id="form-message-warning" class="mb-4"></div>
+                                    <div id="form-message-success" class="mb-4">
+                                        Your message was sent, thank you!
+                                    </div>
+                                    <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                                        {% csrf_token %}
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="label" for="name">Full Name</label>
+                                                    <input type="text" class="form-control" name="name" id="name"
+                                                        placeholder="Name">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="label" for="email">Email Address</label>
+                                                    <input type="email" class="form-control" name="email" id="email"
+                                                        placeholder="Email">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="label" for="subject">Subject</label>
+                                                    <input type="text" class="form-control" name="subject" id="subject"
+                                                        placeholder="Subject">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="label" for="#">Message</label>
+                                                    <textarea name="message" class="form-control" id="message" cols="30"
+                                                        rows="4" placeholder="Message"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="submit" value="Send Message" class="btn btn-primary">
+                                                    <div class="submitting"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-5 d-flex align-items-stretch">
+                                <div class="info-wrap  w-100 p-md-5 p-4">
+                                    <h3>Let's get in touch</h3>
+                                    <p class="mb-4">We're open for any suggestion or just to have a chat</p>
+                                    <div class="dbox w-100 d-flex align-items-start">
+                                        <div class="icon d-flex align-items-center justify-content-center">
+                                            <span class="fa fa-map-marker"></span>
+                                        </div>
+                                        <div class="text pl-3">
+                                            <p><span>Address:</span> 6-115 LIC colony, Srikalahasti, Chennai Road,
+                                                Andhra Pradesh.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="dbox w-100 d-flex align-items-center">
+                                        <div class="icon d-flex align-items-center justify-content-center">
+                                            <span class="fa fa-phone"></span>
+                                        </div>
+                                        <div class="text pl-3">
+                                            <p><span>Phone:</span> <a href="tel://6301218072">+ 6301218072</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="dbox w-100 d-flex align-items-center">
+                                        <div class="icon d-flex align-items-center justify-content-center">
+                                            <span class="fa fa-paper-plane"></span>
+                                        </div>
+                                        <div class="text pl-3">
+                                            <p><span>Email:</span> <a
+                                                    href="mailto:info@yoursite.com">jaswanthsaikakavakam@gmail.com</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="dbox w-100 d-flex align-items-center">
+                                        <div class="icon d-flex align-items-center justify-content-center">
+                                            <span class="fa fa-globe"></span>
+                                        </div>
+                                        <div class="text pl-3">
+                                            <p><span>Website</span> <a href="#">yoursite.com</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class=" text-center text-white" style="background-color: #021209">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <h3 class="with">Connect With Me</h3>
+            <section class="mb-4">
+                
+                <!-- Instagram -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac !important;" href="https://www.instagram.com/j_kakavakam02/"
+                    role="button"><i class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca !important;" href="https://www.linkedin.com/in/jaswanthsai-kakavakam-27b473206/"
+                    role="button"><i class="fab fa-linkedin-in"></i></a>
+                <!-- Github -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #333333 !important;" href="https://github.com/Jaswanth1410"
+                    role="button"><i class="fab fa-github"></i></a>
+
+                <!-- Facebook -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998 !important;" href="#!"
+                    role="button"><i class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee !important;" href="#!"
+                    role="button"><i class="fab fa-twitter"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3 p" style="background-color: #fff724 ">
+            © 2022 Copyright : PhotoGallery
+            <a href=""> , JKGroup Limited.</a>
+            All Rights Reserved.
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: ["Jaswanth Sai K", "Web Developer", "Competitive Coder"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
