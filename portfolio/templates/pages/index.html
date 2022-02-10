@@ -12290,13 +12290,14 @@
 <body>
     <section class="body">
         <div class="header">
+            {% load custom_tags %}
             <nav>
                 <img src="{% static '/images/logo.png' %}" class="logo" alt="">
                 <ul>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#projects">PROJECTS</a></li>
-                    <li><a href="#skills">SKILLS</a></li>
-                    <li><a href="#contact">CONTACT ME</a></li>
+                    <li><a href="{% anchor 'index' 'about' %}">ABOUT</a></li>
+                    <li><a href="{% anchor 'index' 'projects' %}">PROJECTS</a></li>
+                    <li><a href="{% anchor 'index' 'skills' %}">SKILLS</a></li>
+                    <li><a href="{% anchor 'index' 'contact' %}">CONTACT ME</a></li>
                 </ul>
             </nav>
             <div class="text-box">
@@ -12305,7 +12306,7 @@
                     I'm an Undergraduate at <a class="name" href="https://amrita.edu/school/engineering/chennai/">Amrita
                         Vishwa Vidyapeetham .</a> My present working area is Web Development.
                 </p>
-                <div><a href="#contact">Contact Me</a></div>
+                <div><a href="{% anchor 'index' 'contact' %}">Contact Me</a></div>
             </div>
 
             <img src="{% static 'images/man.png' %}" class="user-img" alt="">
